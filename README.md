@@ -25,17 +25,6 @@ The analysis is implemented in the R programming language using open-source libr
 - Forecast accuracy evaluation on a test set (10% of the data)
 - Visualization using `ggplot2` and `forecast` plotting functions
 
-## Project Structure
-
-ARIMAX-Stock-Forecast
-├── data/
-│ └── MGNT_140113_210924.csv # Stock price data 
-├── R/
-│ └── ARIMAX-Stock-Forecast.R # Main analysis script
-├── results/
-│ └── forecast_plots.png # Forecast plots
-├── README.md # Project description
-
 ## How to Run
 
 1. Install required R packages:
