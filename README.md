@@ -41,7 +41,7 @@ install.packages(c("readr", "dplyr", "forecast", "ggplot2", "lubridate"))
 source("R/ARIMAX-Stock-Forecast.R")
 
 ```
-### Dependencies
+## Dependencies
 
 - **readr** — for reading CSV files
 
@@ -53,7 +53,7 @@ source("R/ARIMAX-Stock-Forecast.R")
 
 - **ggplot2** — for visualizations
 
-### Model Evaluation Metrics
+## Model Evaluation Metrics
 
 The accuracy of forecasts is measured using the following metrics:
 
@@ -75,6 +75,6 @@ The accuracy of forecasts is measured using the following metrics:
 
 These metrics provide a comprehensive assessment of the model's predictive power and bias.
 
-### Results Summary
+## Results Summary
 
 The ARIMAX model, which incorporates exogenous variables (OPEN, HIGH, LOW, VOL), outperformed the pure ARIMA model across all accuracy metrics. This indicates that including additional market signals significantly improves forecast reliability.
